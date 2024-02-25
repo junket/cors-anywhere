@@ -1,0 +1,8 @@
+name: cors-anywhere
+services:
+- environment_slug: cors-anywhere
+  github:
+    branch: main
+    deploy_on_push: true
+    repo: junket/cors-anywhere
+  name: cors-anywhere
